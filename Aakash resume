@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+
+    
+</head>
+<body>
+
+    <Center><h1 >DARSSHINI RAGAVAN-RESUME</h1></Center>
+    <img src="" alt="" height="650" width="650" style="margin top: 500px; margin left: 500;">
+    <h1 style="color: rgb(0, 0, 0);">About me</h1>
+    <header style="color: rgb(0, 0, 0);">
+        <h1>AAKASH</h1>
+    </header>
+    <nav>
+        <ul style="color: rgb(0, 0, 0);">
+        <li>home</li>
+        <li>about</li>
+        <li>qualifications</li>
+        <li>certificates</li>
+        <li>skills</li>
+        <li>contanct details</li>
+        </ul>
+    </nav>
+    <nav>
+        <!--home content-->
+        <section>
+            <details style="color: rgb(0, 0, 0);">
+                <!--skills summary-->
+                <summary>skills</summary>
+                <li>html</li>
+                <li>css</li>
+                <li>figma</li>
+            </details>
+        </section>
+    </nav>
+    <section style="color: rgb(0, 0, 0);">
+        <h1>project details</h1>
+        <dl style="color: rgb(0, 0, 0);">
+            <dt>online food delivery</dt>
+            <dd>frontend-html,css,figma,bootstrap</dd>
+            <dd>skill-baking,sculpting,drawing,painting,stitching</dd>
+        </dl>
+    </section>
+   <center> <footer style="color: rgb(0, 0, 0);">
+    <h1>contact information</h1>
+    <p> location:coimbatore</p>
+    <p>Email:Darsshiniragavan@gmail.com</p>
+    <h1>7604**362*</h1>
+</footer></center>
+<section>
+    <caption style="color: antiquewhite;">TABLE</caption>
+    <table border="1PX" style="color: rgb(0, 0, 0);">
+        <thead style="background-color: rgb(0, 0, 0);">
+            <tr>
+                <td style="color: black;">S:NO</td>
+                <td  style="color: black;">QUALIFICATIONS</td>
+                <td  style="color: black;">YEAR OF PASSING</td>
+                <td  style="color: black;">PERCENTAGE</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>B.SC-CT</td>
+                <td>2027</td>
+                <td>100%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>B.SC-CT</td>
+                <td>2027</td>
+                <td>100%</td>
+                
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <caption> <h1> CERTIFICATES</h1></caption>
+    <table>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="https://5.imimg.com/data5/MA/WS/UX/SELLER-6492730/promotional-school-certificate-500x500.jpg" alt="" height="250px" width="250px">
+                </td>
+                <td>
+                    <img src="https://5.imimg.com/data5/MA/WS/UX/SELLER-6492730/promotional-school-certificate-500x500.jpg" alt="" height="250px" width="250px">
+                </td>
+                
+            </tr>
+        </tbody>
+    </table>
+</section> 
+</body>
+</html>
