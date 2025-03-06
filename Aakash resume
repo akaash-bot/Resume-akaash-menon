@@ -3,97 +3,237 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PORTFOLIO</title>
+    <title>Akaash Menon - Portfolio</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
 
-    
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        header h1 {
+            font-size: 3em;
+            border: 5px solid #fff;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #fff;
+            margin: 0;
+        }
+
+        img {
+            background-attachment: fixed;
+            position: fixed;
+        }
+
+        section {
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        section h1 {
+            font-size: 2.5em;
+            color: #d81d2d;
+            margin-bottom: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li:hover {
+            color: #1889e6;
+        }
+
+        details {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            display: inline-block;
+            text-align: left;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        details summary {
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        footer h1 {
+            font-size: 2em;
+            color: #f0e68c;
+            margin-bottom: 10px;
+        }
+
+        footer p {
+            font-size: 1.2em;
+        }
+
+        table {
+            width: 80%;
+            margin: 40px auto;
+            border-collapse: collapse;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        table, th, td {
+            border: 1px solid #fff;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #333;
+        }
+
+        caption {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #f0e68c;
+        }
+
+        .certificate img {
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+            margin: 15px;
+        }
+
+        .certificate {
+            text-align: center;
+        }
+
+        .certificate img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease;
+            text-align: center;
+        }
+
+    </style>
 </head>
 <body>
 
-    <Center><h1 >DARSSHINI RAGAVAN-RESUME</h1></Center>
-    <img src="" alt="" height="650" width="650" style="margin top: 500px; margin left: 500;">
-    <h1 style="color: rgb(0, 0, 0);">About me</h1>
-    <header style="color: rgb(0, 0, 0);">
-        <h1>AAKASH</h1>
+    <header>
+        <h1>Akaash Menon - Resume</h1>
     </header>
+
+    <img src="d.png" alt="Profile Picture of Akaash Menon" height="650" width="375">
+
+    <section>
+        <h1>About Me</h1>
+        <p>Hello! I'm Akaash Menon, a passionate web developer and designer. I'm constantly learning and improving my skills in web technologies to create visually appealing and user-friendly websites.</p>
+    </section>
+
     <nav>
-        <ul style="color: rgb(0, 0, 0);">
-        <li>home</li>
-        <li>about</li>
-        <li>qualifications</li>
-        <li>certificates</li>
-        <li>skills</li>
-        <li>contanct details</li>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Qualifications</li>
+            <li>Certificates</li>
+            <li>Skills</li>
+            <li>Contact</li>
         </ul>
     </nav>
-    <nav>
-        <!--home content-->
-        <section>
-            <details style="color: rgb(0, 0, 0);">
-                <!--skills summary-->
-                <summary>skills</summary>
-                <li>html</li>
-                <li>css</li>
-                <li>figma</li>
-            </details>
-        </section>
-    </nav>
-    <section style="color: rgb(0, 0, 0);">
-        <h1>project details</h1>
-        <dl style="color: rgb(0, 0, 0);">
-            <dt>online food delivery</dt>
-            <dd>frontend-html,css,figma,bootstrap</dd>
-            <dd>skill-baking,sculpting,drawing,painting,stitching</dd>
+
+    <section>                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+        <h1>Skills</h1>
+        <details>
+            <summary>Click to View Skills</summary>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+                <li>React</li>
+            </ul>
+        </details>
+    </section>
+
+    <section>
+        <h1>Project Details</h1>
+        <dl>
+            <dt>Online Food Delivery</dt>
+            <dd>Frontend - HTML, CSS, Figma, Bootstrap</dd>
+            <dd>Skills - Baking, Sculpting, Drawing, Painting, Stitching</dd>
         </dl>
     </section>
-   <center> <footer style="color: rgb(0, 0, 0);">
-    <h1>contact information</h1>
-    <p> location:coimbatore</p>
-    <p>Email:Darsshiniragavan@gmail.com</p>
-    <h1>7604**362*</h1>
-</footer></center>
-<section>
-    <caption style="color: antiquewhite;">TABLE</caption>
-    <table border="1PX" style="color: rgb(0, 0, 0);">
-        <thead style="background-color: rgb(0, 0, 0);">
-            <tr>
-                <td style="color: black;">S:NO</td>
-                <td  style="color: black;">QUALIFICATIONS</td>
-                <td  style="color: black;">YEAR OF PASSING</td>
-                <td  style="color: black;">PERCENTAGE</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1</td>
-                <td>B.SC-CT</td>
-                <td>2027</td>
-                <td>100%</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>B.SC-CT</td>
-                <td>2027</td>
-                <td>100%</td>
-                
-            </tr>
-        </tbody>
-    </table>
-</section>
-<section>
-    <caption> <h1> CERTIFICATES</h1></caption>
-    <table>
-        <tbody>
-            <tr>
-                <td>
-                    <img src="https://5.imimg.com/data5/MA/WS/UX/SELLER-6492730/promotional-school-certificate-500x500.jpg" alt="" height="250px" width="250px">
-                </td>
-                <td>
-                    <img src="https://5.imimg.com/data5/MA/WS/UX/SELLER-6492730/promotional-school-certificate-500x500.jpg" alt="" height="250px" width="250px">
-                </td>
-                
-            </tr>
-        </tbody>
-    </table>
-</section> 
+
+    <footer>      
+        <h1>Contact Information</h1>
+        <p>Location: Coimbatore</p>
+        <p>Email: Akashfault1927@gmail.com</p>
+        <p>Phone: 6381294032</p>
+    </footer>
+
+    <section>
+        <caption>Qualifications</caption>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.NO</th>
+                    <th>Qualifications</th>
+                    <th>Year of Passing</th>
+                    <th>Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>B.SC-CT</td>
+                    <td>2027</td>
+                    <td>100%</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>B.SC-CT</td>
+                    <td>2027</td>
+                    <td>100%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="certificate">
+        <caption>Certificates</caption>
+        <div>
+            <img src="https://5.imimg.com/data5/MA/WS/UX/SELLER-6492730/promotional-school-certificate-500x500.jpg" alt="Certificate Image 1" height="250" width="250">
+            <img src="https://5.imimg.com/data5/MA/WS/UX/SELLER-6492730/promotional-school-certificate-500x500.jpg" alt="Certificate Image 2" height="250" width="250">
+        </div>
+    </section>
+
 </body>
 </html>
